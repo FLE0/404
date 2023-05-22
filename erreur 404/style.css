@@ -1,0 +1,48 @@
+body {
+    background-image: url(wallhaven-4g7r9l.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+button{
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: black;
+padding: 10px 30px;
+border: 2px solid gray;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin-left: 70%;
+margin-top: 15%;
+}
+
+button:hover{
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+.oui {
+    background-color: #2a81d800;
+    height: 125px;
+}
+
+
+.div {
+    color: white;
+    font-size: 125%;
+    margin-left: 40%;
+}
